@@ -24,8 +24,8 @@ module.exports = {
   */
   },
   devServer: {
-    // open: true,
-    // host: "localhost", //192.168.1.24  localhost
+    open: true,
+    host: "0.0.0.0", // localhost  192.168.1.24  localhost
     port: 9000,
     https: false,
     hotOnly: false,
